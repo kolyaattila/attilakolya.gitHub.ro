@@ -232,105 +232,53 @@ margin-bottom: 7%;}
 	width: 100%;
     height: auto;
 }
-
-
-
-
-
-.subtitlu{
-	border-bottom:1px dotted black;
-	padding:20px;
-	text-align:left;
+.scris h2{
+	text-align:center;
+	padding: 30px;
 	font-family:Krona One;
+	.border-bottom:1px dotted black;
 }
 
-.subtitlu2{
-	padding:20px;
-	text-align:left;
-	font-family:Krona One;
-	margin-left:10px;
-}
-/*  stilizarea descrieri */
-.descrieri{
-	width: 70%;
-    padding: 5px 40px;
-    float: left;
-    font-family: Krona One;
-    font-size: 12px;
-}
-
-.containar-paragraf{
-	
-    height: 27%;
-    border-bottom: 1px dotted black;
-}
-
-.containar-ceva{
-	height:14%;
-}
-/*  stilizarea bari procente */
-.containar-abilitati{
-	height:32%;
-	background:#f2f2f2;
-}
-.containar-abilitate{
-	padding:20px;
-	font-family:Krona One;
+/*Formular*/
+label{
+	padding: 10px 20px;
 	float:left;
-	width:90%;
-}
-.containar-ceva p{
-	width:90%;
-	font-family:Arial, Helvetica, sans-serif;
-	margin-left:5%;
-	padding:10px;
-	line-height: 1.5;
+	font-family:Krona One;
+	font-size:20px;
+	width: 45%;
 }
 
-.border-procent{
-	border: 1px solid #243c4f;
-    border-radius: 10px;
-    height: 6px;
-    width: 80%;
+label input,select,.textarea{
+	height:30px;
+	font-size:25px;
 }
 
-.procent{
-	height: 100%;
-    background: orange;
+#subscribe{
+	font-size: 20px;
+    width: 56%;
+    padding: 0px;
+    margin-left: 20px;
+    //margin-top: 18px;
 }
-/*  valorile barilor de procente */
-.H{
-	width:90%;
+#subscribe2{
+	font-size: 20px;
+    width: 20%;
+    padding: 0px;
 }
-
-.CSS{
-	width:80%;
-}
-
-.C{
-	width:70%;
-}
-
-.CPP{
-	width:50%;
+/*  stilizarea comentariu*/
+.coment{
+	//width:95%;
 }
 
-.JS{
-	width:20%;
+#buton2{
+	    padding: 0px;
+    margin-top: 36px;
+    width: 90px;
+    margin-left: 40%;
 }
-
-.J{
-	width:40%;
-}
-
-
 footer div{
-text-align:center;
- margin-top:70px;
- opacity: 0.7;
+	text-align:center;
+	margin-top: 1150px;
+	opacity: 0.7;
 }
-
-
-
-
 

@@ -236,92 +236,146 @@ margin-bottom: 7%;}
 
 
 
-
-.subtitlu{
-	border-bottom:1px dotted black;
-	padding:20px;
-	text-align:left;
-	font-family:Krona One;
-}
-
-.subtitlu2{
-	padding:20px;
-	text-align:left;
-	font-family:Krona One;
-	margin-left:10px;
-}
-/*  stilizarea descrieri */
-.descrieri{
-	width: 70%;
-    padding: 5px 40px;
-    float: left;
+.sub-meniu  li{
+	float: left;
+    padding: 4%;
+    width: 25%;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
     font-family: Krona One;
-    font-size: 12px;
-}
-
-.containar-paragraf{
+    text-align: center;
+    font-size: 65%;
 	
-    height: 27%;
-    border-bottom: 1px dotted black;
 }
 
-.containar-ceva{
-	height:14%;
+.sub-meniu{
+	padding:0px;
+	margin:0px;
 }
-/*  stilizarea bari procente */
-.containar-abilitati{
-	height:32%;
-	background:#f2f2f2;
+
+/*  stilizarea  container sport*/
+.sport{
+	height:300px;
+	margin-top: 50px;
 }
-.containar-abilitate{
-	padding:20px;
-	font-family:Krona One;
-	float:left;
+
+.sport p{
 	width:90%;
-}
-.containar-ceva p{
-	width:90%;
-	font-family:Arial, Helvetica, sans-serif;
 	margin-left:5%;
-	padding:10px;
-	line-height: 1.5;
+	font-size:20px;
 }
 
-.border-procent{
-	border: 1px solid #243c4f;
-    border-radius: 10px;
-    height: 6px;
-    width: 80%;
-}
-
-.procent{
-	height: 100%;
-    background: orange;
-}
-/*  valorile barilor de procente */
-.H{
+.sport ol{
 	width:90%;
+	margin-left:5%;
+	padding-left:0px;
+	padding-top:20px;
 }
 
-.CSS{
+.sport ol li {
+	padding:10px;
+	font-size:20px;
+}
+
+.sport div{
+	text-align:center;
+	margin-top:30px;
+	opacity: 0.7;
+}
+/*  stilizarea imagine sport */
+.sport img{
+	
 	width:80%;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:10%;
 }
 
-.C{
-	width:70%;
+/*  stilizarea container programare */
+.programare{
+	height:300px;
+	margin-top: 50px;
 }
 
-.CPP{
-	width:50%;
+.programare p{
+	width:90%;
+	font-size:20px;
+	margin-left:5%;
 }
 
-.JS{
-	width:20%;
+.programare ol{
+	width:90%;
+	margin-left:5%;
+	padding-left:0px;
+	padding-top:20px;
 }
 
-.J{
-	width:40%;
+.programare ol li {
+	padding:10px;
 }
+
+.programare div{
+	text-align:center;
+	margin-top:230px;
+	opacity: 0.7;
+}
+/*  stilizarea imagine programare */
+.programare img{
+	
+	width:80%;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:10%;
+}
+/*  stilizarea container */
+.film{
+	height:300px;
+	margin-top: 50px;
+}
+
+.film p{
+	width:90%;
+	font-size:20px;
+	margin-left:5%;
+}
+
+.film ol{
+	width:90%;
+	margin-left:5%;
+	padding-left:0px;
+	padding-top:20px;
+}
+
+.film ol li {
+	padding:10px;
+	/font-size:20px;
+}
+
+.film div{
+	text-align:center;
+	margin-top:75px;
+	opacity: 0.7;
+	
+}
+/*  stilizarea imagine film  */
+.film img{
+	
+	width:80%;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:10%;
+}
+/*  stilizarea subtitluri */
+.subtitlu{
+	padding:40px;
+	text-align:center;
+	font-family:Krona One;
+	border-bottom:1px dotted black;
+}
+
+
+
 
 
 footer div{
@@ -329,8 +383,3 @@ text-align:center;
  margin-top:70px;
  opacity: 0.7;
 }
-
-
-
-
-

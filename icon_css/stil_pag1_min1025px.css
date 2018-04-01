@@ -1,0 +1,373 @@
+/*Impartirea ecranului*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* stilizare body */
+body,html{
+	height:1250px;
+	background-color:#f2f2f2;
+	margin:0px;
+}
+/*PArlax*/
+.paralax{
+	background-image:url('../poze/Background.jpg');
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:454px;
+	right:100%;
+	
+	
+}
+/*Meniu*/
+.meniu ul li{
+float:left;
+
+padding:20px 37px;
+list-style:none;
+text-transform:uppercase;
+background-color:white;
+font-family:Krona One;
+border-right:1px dashed grey;
+
+}
+.meniu ul{
+	padding:0px;
+}
+
+.meniu ul :last-child{
+	border-right:none;
+}
+
+/* stilizare link-urilor */
+.meniu ul li a:link,.meniu ul li a:visited{
+	color:gray;
+	text-decoration:none;
+	
+}
+
+.meniu ul li a :hover{
+	color:orange;
+}
+.meniu ul li:hover{
+	border-bottom:2px solid orange;
+	color:orange;
+}
+/*
+.meniu:hover{
+	border-bottom:2px solid orange;
+	color:orange;
+}*/
+
+.meniu {
+	height: 60px;
+    background-color: white;
+}
+
+/* stilizarea cardului */
+.card{
+	background-color:white;
+	margin-left:15%;
+	text-align:center;
+}
+/* stilizarea numelui */
+.card h1{
+	
+	font-family:Krona One;
+}
+/*  stilizarea elemtelor social media */
+.socilaMedia{
+	padding:15px;
+	border-top: 1px dotted black;
+    font-size: 20px
+}
+
+.fa-facebook ,.fa-instagram,.fa-linkedin,.fa-envelope{
+	padding:10px 13px 10px 13px;
+	border-radius:50px;
+	border:1px solid black;
+	color:black;
+}
+
+.socilaMedia .fa-facebook:hover{
+	color:white;
+	background-color:#4267b2;
+}
+
+.socilaMedia .fas:hover{
+	color:white;
+	background-color:rgb(52,175,217);
+}
+
+.socilaMedia .fa-instagram:hover{
+	color:white;
+	background: linear-gradient(to bottom right, #f14c47, #ce2e83);
+}
+
+.socilaMedia .fa-linkedin:hover{
+	color:white;
+	background-color:#007bb6;
+}
+
+/*  stilizarea  pozei*/
+.imagine img{
+	width: 100%;
+    height: auto;
+}
+
+
+
+/*Container*/
+
+.container1{
+	position:absolute;
+	top:66px;
+	left:505px;
+}
+.cotainer2{
+	position:absolute;
+	top:82px;
+	left:70px;
+}
+
+.scris{
+	background-color:white;
+	height:1000px;
+	position:absolute;
+    top: 117px;
+}
+/*  stilizarea ubrei eleomtelor */
+.umbra{
+	
+	box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.3), 0px 6px 30px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+.suntAici{
+	border-bottom:2px solid orange;
+}
+
+/*  stilizarea submeniului */
+.sub-meniu  li{
+	float:left;
+	padding:20px;
+	width:28.5%;
+	list-style:none;
+	text-transform:uppercase;
+	background-color:#f2f2f2;
+	font-family:Krona One;
+	text-align:center;
+	
+}
+
+.sub-meniu{
+	padding:0px;
+	margin:0px;
+}
+
+/*  stilizarea  container sport*/
+.sport{
+	height:300px;
+	margin-top: 50px;
+}
+
+.sport p{
+	width:90%;
+	margin-left:5%;
+	font-size:20px;
+}
+
+.sport ol{
+	width:90%;
+	margin-left:5%;
+	padding-left:0px;
+	padding-top:20px;
+}
+
+.sport ol li {
+	padding:10px;
+	font-size:20px;
+}
+
+.sport div{
+	text-align:center;
+	margin-top:30px;
+	opacity: 0.7;
+}
+/*  stilizarea imagine sport */
+.sport img{
+	
+	width:80%;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:10%;
+}
+
+/*  stilizarea container programare */
+.programare{
+	height:300px;
+	margin-top: 50px;
+}
+
+.programare p{
+	width:90%;
+	font-size:20px;
+	margin-left:5%;
+}
+
+.programare ol{
+	width:90%;
+	margin-left:5%;
+	padding-left:0px;
+	padding-top:20px;
+}
+
+.programare ol li {
+	padding:10px;
+}
+
+.programare div{
+	text-align:center;
+	margin-top:160px;
+	opacity: 0.7;
+}
+/*  stilizarea imagine programare */
+.programare img{
+	
+	width:80%;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:10%;
+}
+/*  stilizarea container */
+.film{
+	height:300px;
+	margin-top: 50px;
+}
+
+.film p{
+	width:90%;
+	font-size:20px;
+	margin-left:5%;
+}
+
+.film ol{
+	width:90%;
+	margin-left:5%;
+	padding-left:0px;
+	padding-top:20px;
+}
+
+.film ol li {
+	padding:10px;
+	/font-size:20px;
+}
+
+.film div{
+	text-align:center;
+	margin-top:75px;
+	opacity: 0.7;
+	
+}
+/*  stilizarea imagine film  */
+.film img{
+	
+	width:80%;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:10%;
+}
+/*  stilizarea subtitluri */
+.subtitlu{
+	padding:40px;
+	text-align:center;
+	font-family:Krona One;
+	border-bottom:1px dotted black;
+}
+/*Autentificare*/
+
+.containerA{
+	position: absolute;
+    top: 0px;
+    right: 6px;
+    width: 1000px;
+    height: 50px;
+}
+
+.LogoAutentificare{
+	position: absolute;
+    right: 22px;
+}
+
+
+.LogoAutentificare i{
+	font-size:50px;
+	color:white;
+}
+#apare{
+	width: 0px;
+    height: 50px;
+    position: absolute;
+    right: 97px;
+    overflow:hidden;
+	background-color:white;
+	opacity:0.9;
+}
+
+.autentificare{
+	position: absolute;
+    left: 0px;
+    height: 50px;
+    width: 623px;
+   
+}
+
+.autentificare section{
+	float:left;
+	padding:10px;
+}
+
+@keyframes afisare {
+    0% {width: 0px;}
+    100% {width: 610px;}
+}
+
+@keyframes afisareInvers {
+    0% {width: 610px;}
+    100% {width: 0px;}
+}
+
+#poz{
+	position:relative;
+}
+
+#ochi{
+	color: grey;
+    position: absolute;
+    top: 13px;
+    right: 16px;
+	cursor:pointer;
+}
+
+.autentificare section input{
+	border-radius: 7px;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+
+
+
+
