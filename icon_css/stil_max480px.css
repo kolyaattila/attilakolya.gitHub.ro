@@ -52,7 +52,7 @@ body,html{
 }
 #apare{
 	width: 0px;
-    height: 123px;
+    height: 163px;
     position: absolute;
     right: 6%;
     overflow: hidden;
@@ -74,11 +74,11 @@ body,html{
 
 @keyframes afisare {
     0% {width: 0px;}
-    100% {width: 27%;}
+    100% {width: 18%;}
 }
 
 @keyframes afisareInvers {
-    0% {width: 27%;}
+    0% {width: 18%;}
     100% {width: 0px;}
 }
 
@@ -89,7 +89,7 @@ body,html{
 #ochi{
 	color: grey;
     position: absolute;
-    top: 13px;
+    top: 32px;
     right: 16px;
 	cursor:pointer;
 }
