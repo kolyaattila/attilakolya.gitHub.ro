@@ -74,11 +74,11 @@ body,html{
 
 @keyframes afisare {
     0% {width: 0px;}
-    100% {width: 26%;}
+    100% {width: 35%;}
 }
 
 @keyframes afisareInvers {
-    0% {width: 26%;}
+    0% {width: 35%;}
     100% {width: 0px;}
 }
 
