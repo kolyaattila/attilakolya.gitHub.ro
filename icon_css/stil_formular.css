@@ -1,0 +1,40 @@
+
+/*stilizare container formular*/
+.container{
+	background-color:blue;
+	border:1px solid black;
+	width:350px;
+	height:550px;
+	color: white;
+}
+
+section{
+	width:80%;
+	padding :10px 20px;
+}
+/*stilizare input*/ 
+input{
+	width:100%;
+	font-size: 15px;
+    border-radius: 5px;
+	border:0px;
+	font-size: 15px;
+    height: 30px;
+}
+/*culorile*/
+.culoare{
+	width:100%;
+}
+.culoare input{
+	width:20%;
+	margin-left:40px;
+}
+/*stilizare butoane*/
+.buton{
+	width: 30%;
+    float: left;
+}
+
+.buton input{
+	width: 110%;
+}

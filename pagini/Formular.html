@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ro">
+	<head>
+		<!-- Titllu		-->
+		<title>Formular</title>
+		<!--   lecatura css -->
+		<link type="text/css" href="../icon_css/stil_formular.css" rel="stylesheet">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!-- container   -->
+		<div class="container" id="container">
+			<!--   formular -->
+			<form id="formular">
+				<section>
+					Nume:
+					<input type="text" id="nume" onblur="verificare_nume()" placeholder="nume" >
+				</section>
+				<section>
+					<!--  prenume  -->
+					Prenume:
+					<input type="text" id="prenume" onblur="verificare_prenume()" placeholder="prenume"  >
+				</section>
+				<section>
+					<!--  adresa  -->
+					Adresă:
+					<input type="text" id="adresa" onblur="validare_adresa()" placeholder="Strada nr.">
+				</section>
+				<section>
+					Data nașteri:
+					<input type="text"  id="data"  onblur="validare_data_nastere()" placeholder="ZZ/LL/AAAA">
+				</section>
+				<section>
+					<!--  numar telefon  -->
+					Numar de telefon:
+					<input type="text" id="telefon" onblur="validare_numar_telefon()" placeholder="+0740-481-514">
+				</section>
+				<section>
+					E-mail:
+					<input type="text" id="email" onblur="validare_email()" placeholder="attila@yahoo.com">
+				</section>
+				<section class="culoare">
+					Culoarea favorită:
+					<input type="color" id="culoare">
+				</section>
+				<section class="buton trimite">
+					<!--   butonul de trimitere formular -->
+					<input  type="button" onclick="verificareErori()" value="Trimitere">
+				</section >
+				<section class="buton reset">
+					<!-- buton de reset formular   -->
+					<input type="button" onclick="resetare()"   value="Reseteaza">
+				</section>
+			
+			</form>
+		</div>
+		<!-- legatura javaScript   -->
+		<script src="../js/JavaScript_formular.js"></script>
+	</body>
+</html>

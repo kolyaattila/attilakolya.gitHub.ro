@@ -1,0 +1,107 @@
+[class*="col-"]  {
+	width:100%;
+}
+
+body,html{
+	height:1200px;
+	background-color:#f2f2f2;
+	margin:0px;
+}
+/*PArlax*/
+.paralax{
+	background-image:url('../poze/Background.jpg');
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:25%;
+	right:100%;
+}
+
+
+
+
+
+.imagine img{
+	display:none;
+}
+
+
+
+
+
+
+
+.containerA{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 1000px;
+    height: 50px;
+}
+
+.LogoAutentificare{
+	position: absolute;
+    right: 4px;
+}
+
+
+.LogoAutentificare i{
+	font-size:50px;
+	color:white;
+}
+#apare{
+	width: 0px;
+    height: 123px;
+    position: absolute;
+    right: 6%;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.autentificare{
+	
+    height: 50px;
+    width: 100%;
+   
+}
+
+.autentificare section{
+	float:left;
+	padding:10px;
+}
+
+@keyframes afisare {
+    0% {width: 0px;}
+    100% {width: 26%;}
+}
+
+@keyframes afisareInvers {
+    0% {width: 26%;}
+    100% {width: 0px;}
+}
+
+#poz{
+	position:relative;
+}
+
+#ochi{
+	color: grey;
+    position: absolute;
+    top: 13px;
+    right: 16px;
+	cursor:pointer;
+}
+
+.autentificare section input{
+	border-radius: 7px;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
