@@ -44,7 +44,7 @@ body,html{
 .meniu ul li{
 float:left;
 
-padding:20px 37px;
+
 list-style:none;
 text-transform:uppercase;
 background-color:white;
@@ -52,6 +52,37 @@ font-family:Krona One;
 border-right:1px dashed grey;
 
 }
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+
+	.meniu ul li{
+		padding:20px 3px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+
+	.meniu ul li{
+		padding:20px 8px;
+	}
+}
+@media only screen and (min-width : 1201px) and (max-width: 1300px) {
+
+	.meniu ul li{
+		padding:20px 15px;
+	}
+}
+@media only screen and (min-width : 1301px) and (max-width: 1400px)  {
+
+	.meniu ul li{
+		padding:20px 22px;
+	}
+}
+@media only screen and (min-width : 1401px)   {
+
+	.meniu ul li{
+		padding:20px 29px;
+	}
+}
+
 .meniu ul{
 	padding:0px;
 }
@@ -143,13 +174,57 @@ border-right:1px dashed grey;
 .container1{
 	position:absolute;
 	top:66px;
-	left:505px;
+	
 }
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+	.container1{
+		left:300px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container1{
+		left:350px;
+	}
+}
+@media only screen and (min-width : 1201px) and (max-width: 1300px) {
+	.container1{
+		left:400px;
+	}
+}
+@media only screen and (min-width : 1301px) and (max-width: 1400px) {
+	.container1{
+		left:450px;
+	}
+}
+@media only screen and (min-width : 1401px)   {
+	.container1{
+		left:27%;
+	}
+}
+
+
 .cotainer2{
 	position:absolute;
 	top:82px;
-	left:70px;
+	
 }
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+	.container2{
+		left:0px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container2{
+		left:40px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container2{
+		left:50px;
+	}
+}
+
+
 
 .scris{
 	background-color:white;
@@ -182,17 +257,66 @@ border-right:1px dashed grey;
 	margin-left:10px;
 }
 /*  stilizarea descrieri */
-.descrieri{
-	width: 40%;
-    padding: 5px 40px;
+
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+	.descrieri{
+	width: 48%;
+    padding: 5px 5px;
     float: left;
     font-family: Krona One;
     font-size: 12px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.descrieri{
+	width: 48%;
+    padding: 5px 6px;
+    float: left;
+    font-family: Krona One;
+    font-size: 13px;
+	}
+}
+@media only screen and (min-width : 1201px) and (max-width: 1300px) {
+	.descrieri{
+	width: 48%;
+    padding: 5px 6px;
+    float: left;
+    font-family: Krona One;
+    font-size: 14px;
+	}
+}
+@media only screen and (min-width : 1301px) and (max-width: 1400px) {
+	.descrieri{
+	width: 48%;
+    padding: 5px 7px;
+    float: left;
+    font-family: Krona One;
+    font-size: 15px;
+	}
+}
+@media only screen and (min-width : 1401px)  {
+	.descrieri{
+	width: 48%;
+    padding: 5px 6px;
+    float: left;
+    font-family: Krona One;
+    font-size: 16px;
+	}
+	
+	.containar-paragraf{
+		height:220px;
+	}
 }
 
+@media only screen and (min-width : 1025px)  and (max-width :1400px){
+	.containar-paragraf{
+		height:200px;
+	}
+}
+	
 .containar-paragraf{
 	
-    height: 200px;
+   
     border-bottom: 1px dotted black;
 }
 
@@ -204,13 +328,36 @@ border-right:1px dashed grey;
 	height:220px;
 	background:#f2f2f2;
 }
-.containar-abilitate{
-	padding:20px;
-	font-family:Krona One;
-	float:left;
-	width:45%;
-}
+@media only screen and (min-width : 1025px)  and (max-width :1125px){
 
+	.containar-abilitate{
+		padding:14px;
+		font-size:21px;
+		float:left;
+		width:45%;
+		
+	}
+}
+@media only screen and (min-width : 1126px)  and (max-width :1225px){
+
+	.containar-abilitate{
+		padding:15px;
+		font-size:23px;
+		float:left;
+		width:45%;
+		
+	}
+}
+@media only screen and (min-width : 1225px)  {
+
+	.containar-abilitate{
+		padding:15px;
+		font-size:15px;
+		float:left;
+		width:45%;
+		font-family:Krona One;
+	}
+}
 .border-procent{
 	border: 1px solid #243c4f;
     border-radius: 10px;

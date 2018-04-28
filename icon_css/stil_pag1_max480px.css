@@ -168,12 +168,45 @@ body,html{
 
 .scris{
 	    background-color: white;
-    height: 1286px;
+    
     position: absolute;
-    top: 1080px;
+    
     width: 90%;
     left: 5%;
-margin-bottom: 7%;}
+	margin-bottom: 7%;
+}
+
+@media only screen and (min-width : 400px) and (max-width: 480px){
+	.scris{
+		top: 1039px;
+		height:1380px;
+	}
+}
+
+@media only screen and (min-width : 350px) and (max-width: 399px){
+	.scris{
+		top: 969px;
+		height:1500px;
+	}
+}
+@media only screen and (min-width : 300px) and (max-width: 349px){
+	.scris{
+		top: 920px;
+		height:1620px;
+	}
+}
+@media only screen and (min-width : 250px) and (max-width: 300px){
+	.scris{
+		top: 900px;
+		height:1900px;
+	}
+}
+@media only screen and  (max-width: 250px){
+	.scris{
+		top: 870px;
+		height:2000px;
+	}
+}
 
 
 

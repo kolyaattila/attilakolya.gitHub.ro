@@ -173,7 +173,35 @@ body,html{
     top: 1080px;
     width: 90%;
     left: 5%;
-margin-bottom: 7%;}
+	margin-bottom: 7%;
+}
+
+@media only screen and (min-width : 400px) and (max-width: 480px){
+	.scris{
+		top: 1039px;
+	}
+}
+
+@media only screen and (min-width : 350px) and (max-width: 399px){
+	.scris{
+		top: 969px;
+	}
+}
+@media only screen and (min-width : 300px) and (max-width: 349px){
+	.scris{
+		top: 920px;
+	}
+}
+@media only screen and (min-width : 250px) and (max-width: 300px){
+	.scris{
+		top: 900px;
+	}
+}
+@media only screen and  (max-width: 250px){
+	.scris{
+		top: 870px;
+	}
+}
 
 
 
@@ -245,12 +273,38 @@ label{
 	float:left;
 	font-family:Krona One;
 	font-size:20px;
-	width: 45%;
+	width: 90%;
 }
 
 label input,select,.textarea{
 	height:30px;
-	font-size:25px;
+	
+}
+
+@media only screen and (min-width : 380px) and (max-width: 480px){
+	label input,select,.textarea{
+		font-size:25px;
+	}
+	
+}
+
+
+@media only screen and (min-width : 300px) and (max-width: 380px){
+	label input,select,.textarea{
+		font-size:19px;
+	}
+	
+}
+@media only screen and (min-width : 300px) and {
+	label input,select,.textarea{
+		font-size:12px;
+	}
+	
+}
+
+
+textarea{
+	width:100%;
 }
 
 #subscribe{

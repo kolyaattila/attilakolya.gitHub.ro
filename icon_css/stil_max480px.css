@@ -170,11 +170,37 @@ body,html{
 	    background-color: white;
     height: 1286px;
     position: absolute;
-    top: 1080px;
+    
     width: 90%;
     left: 5%;
 margin-bottom: 7%;}
 
+@media only screen and (min-width : 400px) and (max-width: 480px){
+	.scris{
+		top: 1039px;
+	}
+}
+
+@media only screen and (min-width : 350px) and (max-width: 399px){
+	.scris{
+		top: 969px;
+	}
+}
+@media only screen and (min-width : 300px) and (max-width: 349px){
+	.scris{
+		top: 920px;
+	}
+}
+@media only screen and (min-width : 250px) and (max-width: 300px){
+	.scris{
+		top: 900px;
+	}
+}
+@media only screen and  (max-width: 250px){
+	.scris{
+		top: 870px;
+	}
+}
 
 
 
@@ -253,21 +279,52 @@ margin-bottom: 7%;}
 /*  stilizarea descrieri */
 .descrieri{
 	width: 70%;
-    padding: 5px 40px;
+    padding: 4px 40px;
     float: left;
     font-family: Krona One;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .containar-paragraf{
 	
-    height: 27%;
+    
     border-bottom: 1px dotted black;
 }
 
-.containar-ceva{
-	height:14%;
+
+@media only screen and (min-width : 400px) and (max-width: 480px){
+	.containar-paragraf{
+		height:32%;
+	}
 }
+@media only screen and (min-width : 300px) and (max-width: 399px){
+	.containar-paragraf{
+		height:37%;
+	}
+}
+@media only screen  and (max-width: 299px){
+	.containar-paragraf{
+		height:41%;
+	}
+}
+
+
+@media only screen and (min-width : 400px) and (max-width: 480px){
+	.containar-ceva{
+	height:14%;
+	}
+}
+@media only screen and (min-width : 350px) and (max-width: 399px){
+	.containar-ceva{
+	height:18%;
+	}
+}
+@media only screen  and (max-width: 349px){
+	.containar-ceva{
+	height:23%;
+	}
+}
+
 /*  stilizarea bari procente */
 .containar-abilitati{
 	height:32%;

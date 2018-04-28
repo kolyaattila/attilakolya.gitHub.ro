@@ -32,10 +32,43 @@ body,html{
 	
 }
 /*Meniu*/
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+
+	.meniu ul li{
+		padding:20px 3px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+
+	.meniu ul li{
+		padding:20px 8px;
+	}
+}
+@media only screen and (min-width : 1201px) and (max-width: 1300px) {
+
+	.meniu ul li{
+		padding:20px 15px;
+	}
+}
+@media only screen and (min-width : 1301px) and (max-width: 1400px)  {
+
+	.meniu ul li{
+		padding:20px 22px;
+	}
+}
+@media only screen and (min-width : 1401px)   {
+
+	.meniu ul li{
+		padding:20px 29px;
+	}
+}
+
+
+
 .meniu ul li{
 float:left;
 
-padding:20px 37px;
+
 list-style:none;
 text-transform:uppercase;
 background-color:white;
@@ -130,24 +163,92 @@ border-right:1px dashed grey;
 
 
 /*Container*/
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+	.container1{
+		left:300px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container1{
+		left:350px;
+	}
+}
+@media only screen and (min-width : 1201px) and (max-width: 1300px) {
+	.container1{
+		left:400px;
+	}
+}
+@media only screen and (min-width : 1301px) and (max-width: 1400px) {
+	.container1{
+		left:450px;
+	}
+}
+@media only screen and (min-width : 1401px)   {
+	.container1{
+		left:27%;
+	}
+}
 
 .container1{
 	position:absolute;
 	top:66px;
-	left:505px;
+	
 }
+
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+	.container2{
+		left:0px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container2{
+		left:40px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container2{
+		left:50px;
+	}
+}
+
 .cotainer2{
 	position:absolute;
 	top:82px;
-	left:70px;
+	
 }
 
 .scris{
 	background-color:white;
-	height:1000px;
+	
 	position:absolute;
     top: 117px;
+	margin-bottom:20px;
 }
+
+@media only screen and (min-width : 1025px) and (max-width: 1125px){
+	.scris{
+		height:1150px;
+	}
+}
+
+@media only screen and (min-width : 1125px) and (max-width: 1225px){
+	.scris{
+		height:1110px;
+	}
+}
+
+@media only screen and (min-width : 1225px) {
+	.scris{
+		height:1100px;
+	}
+}
+
+
+
+
+
+
+
 /*  stilizarea ubrei eleomtelor */
 .umbra{
 	
@@ -162,7 +263,7 @@ border-right:1px dashed grey;
 /*  stilizarea submeniului */
 .sub-meniu  li{
 	float:left;
-	padding:20px;
+	
 	width:28.5%;
 	list-style:none;
 	text-transform:uppercase;
@@ -172,9 +273,37 @@ border-right:1px dashed grey;
 	
 }
 
+@media only screen and (min-width : 1025px) and (max-width: 1125px) {
+	.sub-meniu  li{
+		padding:13px;
+	}
+}
+@media only screen and (min-width : 1125px) and (max-width: 1225px) {
+	.sub-meniu  li{
+		padding:15px;
+	}
+}
+@media only screen and (min-width : 1225px) and (max-width: 1325px) {
+	.sub-meniu  li{
+		padding:16px;
+	}
+}
+@media only screen and (min-width : 1325px) and (max-width: 1425px) {
+	.sub-meniu  li{
+		padding:17px;
+	}
+}
+@media only screen and (min-width : 1425px)  {
+	.sub-meniu  li{
+		padding:19px;
+	}
+}
+
+
 .sub-meniu{
 	padding:0px;
 	margin:0px;
+	font-size:115%;
 }
 
 /*  stilizarea  container sport*/

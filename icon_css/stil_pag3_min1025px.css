@@ -31,10 +31,42 @@ body,html{
 	
 }
 /*Meniu*/
+
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+
+	.meniu ul li{
+		padding:20px 3px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+
+	.meniu ul li{
+		padding:20px 8px;
+	}
+}
+@media only screen and (min-width : 1201px) and (max-width: 1300px) {
+
+	.meniu ul li{
+		padding:20px 15px;
+	}
+}
+@media only screen and (min-width : 1301px) and (max-width: 1400px)  {
+
+	.meniu ul li{
+		padding:20px 22px;
+	}
+}
+@media only screen and (min-width : 1401px)   {
+
+	.meniu ul li{
+		padding:20px 29px;
+	}
+}
+
 .meniu ul li{
 float:left;
 
-padding:20px 37px;
+
 list-style:none;
 text-transform:uppercase;
 background-color:white;
@@ -129,20 +161,82 @@ border-right:1px dashed grey;
 .container1{
 	position:absolute;
 	top:66px;
-	left:505px;
+	
 }
+
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+	.container1{
+		left:300px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container1{
+		left:350px;
+	}
+}
+@media only screen and (min-width : 1201px) and (max-width: 1300px) {
+	.container1{
+		left:400px;
+	}
+}
+@media only screen and (min-width : 1301px) and (max-width: 1400px) {
+	.container1{
+		left:450px;
+	}
+}
+@media only screen and (min-width : 1401px)   {
+	.container1{
+		left:27%
+	}
+}
+
+
 .cotainer2{
 	position:absolute;
 	top:82px;
-	left:70px;
+	
 }
+
+@media only screen and (min-width : 1025px) and (max-width: 1100px) {
+	.container2{
+		left:0px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container2{
+		left:40px;
+	}
+}
+@media only screen and (min-width : 1101px) and (max-width: 1200px) {
+	.container2{
+		left:50px;
+	}
+}
+
+
 
 .scris{
 	background-color:white;
-	height:1050px;
+	margin-bottom: 20px;
 	position:absolute;
     top: 117px;
 }
+
+@media only screen and (min-width : 1025px) and (max-width: 1225px) {
+	.scris{
+		height:1150px;
+	}
+}
+@media only screen and (min-width : 1225px) {
+	.scris{
+		height:1100px;
+	}
+}
+
+
+
+
+
 /*  stilizarea umbra elemente*/
 .umbra{
 	
