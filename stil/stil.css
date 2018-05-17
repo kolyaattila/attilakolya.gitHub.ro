@@ -87,8 +87,21 @@ body{
 	top:0;
 	left:0;
 	width:100%;
-	height:310%;
+	
 	z-index:-1;
+}
+
+@media and (min-width:767px){
+	#paralax{
+		height:310%;
+	}
+}
+
+
+@media and (min-width:767px){
+	#paralax{
+		height:400%;
+	}
 }
 
 .item{
