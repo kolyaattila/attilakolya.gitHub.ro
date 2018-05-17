@@ -91,14 +91,14 @@ body{
 	z-index:-1;
 }
 
-@media and (min-width:767px){
+@media  (min-width:767px){
 	#paralax{
 		height:310%;
 	}
 }
 
 
-@media and (min-width:767px){
+@media  (max-width:768px){
 	#paralax{
 		height:400%;
 	}
