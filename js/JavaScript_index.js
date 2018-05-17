@@ -4,7 +4,11 @@ li.className="";
 li.style.color="white";
 window.onscroll=function(){
 	//console.log(this.scrollY);
-	document.getElementById("paralax").style.top=-(this.scrollY-300)+"px";
+	
+	//console.log(100*300/this.innerHeight);
+	
+	var ceva=39*this.innerHeight/100;
+	document.getElementById("paralax").style.top=-(this.scrollY-ceva)+"px";
 	
 	if(document.body.scrollTop >50 || document.documentElement.scrollTop >50 ){
 	
