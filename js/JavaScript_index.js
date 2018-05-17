@@ -3,7 +3,8 @@ var li = document.getElementById("li");
 li.className="";
 li.style.color="white";
 window.onscroll=function(){
-	
+	//console.log(this.scrollY);
+	document.getElementById("paralax").style.top=-(this.scrollY-300)+"px";
 	
 	if(document.body.scrollTop >50 || document.documentElement.scrollTop >50 ){
 	
@@ -20,6 +21,13 @@ window.onscroll=function(){
 	}
 	
 }
+
+
+/*
+$(window).scroll(function(){
+	var scrol=$(this).scrollTop();
+	$('#paralax').css('top',-(scrollTop)+'px');
+});
 
 
 /*
