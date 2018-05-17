@@ -3,17 +3,16 @@ var li = document.getElementById("li");
 li.className="";
 li.style.color="white";
 window.onscroll=function(){
-<<<<<<< HEAD
+
 	//console.log(this.scrollY);
 	
 	//console.log(100*300/this.innerHeight);
 	
 	var ceva=39*this.innerHeight/100;
 	document.getElementById("paralax").style.top=-(this.scrollY-ceva)+"px";
-=======
-	console.log(this.scrollY);
-	document.getElementById("paralax").style.top=-(this.scrollY-300)+"px";
->>>>>>> 51127d1c47c461d2f852a2efd521f4f4834dd9fe
+
+	
+
 	
 	if(document.body.scrollTop >50 || document.documentElement.scrollTop >50 ){
 	
