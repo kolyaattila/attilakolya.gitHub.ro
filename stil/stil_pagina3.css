@@ -1,0 +1,77 @@
+body{
+	
+    margin: 0px;
+}
+.navbar{
+	z-index:4;
+}
+
+#pozitieSticky{
+	position:sticky;
+	top:0px;
+	border-color: #080808;
+	
+}
+
+#img{
+	padding:5px 0px;
+}
+
+#myNavbar ul{
+	float:right;
+}
+
+.descrieri{
+	position:absolute;
+	
+}
+
+
+#descriereP1{
+	    top: 10%;
+    left: 40%;
+}
+#descriereP2{
+	    top: 9%;
+    left: 23%;
+}
+#descriereP3{
+	top: 15%;
+    left: 19%;
+	
+}
+#descriereP4{
+	    top: 25%;
+    left: 13%;
+}
+
+#descriereP5{
+	top: 28%;
+    left: 18%;
+}
+#descriereP6{
+	top: 24%;
+    left: 40%;
+	
+}
+#descriereP7{
+	top: 33%;
+    left: 30%;
+}
+#descriereP8{
+	    top: 36%;
+    left: 28%;
+}
+
+#descriereP9{
+	    top: 43%;
+    left: 23%;
+}
+#descriereP10{
+	    top: 50%;
+    left: 24%;
+}
+#descriereP11{
+	    top: 57%;
+    left: 6%;
+}    

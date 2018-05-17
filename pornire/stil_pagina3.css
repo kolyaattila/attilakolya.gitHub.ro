@@ -1,0 +1,22 @@
+body{
+	height: 1500px;
+    margin: 0px;
+}
+.navbar{
+	z-index:4;
+}
+
+#pozitieSticky{
+	position:sticky;
+	top:0%;
+	border-color: #080808;
+	background:transparent;
+}
+
+#img{
+	padding:5px 0px;
+}
+
+#myNavbar ul{
+	float:right;
+}

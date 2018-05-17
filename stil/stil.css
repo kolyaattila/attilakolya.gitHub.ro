@@ -1,0 +1,177 @@
+.plasa{   
+ position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #2f4f4f;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.video{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video video{
+	min-width: 100%;
+    min-height: 100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	
+}
+
+
+body{
+	height: 1500px;
+    margin: 0px;
+}
+.navbar{
+	z-index:4;
+}
+
+#pozitieSticky{
+	position:sticky;
+	top:0%;
+	border-color: #080808;
+	background:transparent;
+}
+
+.titlu{
+	position: absolute;
+    top: 35%;
+	left:5%;
+	width:40%;
+    z-index: 3;
+    color: white;
+}
+
+.descriere{
+	position:relative;
+	top:47%;
+	left:0px;
+	right:0px;
+}
+
+.descriere h2{
+	padding:20px;
+	border-bottom:1px solid blue;
+}
+
+
+
+
+.paralax{
+	color:white;
+	position:relative;
+	top:55%;
+	left:0px;
+	right:0px;
+	overflow:hidden;
+	height:400px;
+}
+
+#paralax{
+	background-image:url("../imagini/photo4.jpg");
+	/background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:300%;
+	z-index:-1;
+}
+
+.item{
+		height:250px
+}
+.carousel-inner{
+		height:400px;
+}
+.carousel-caption{
+	top:0px;
+}
+#myCarousel a{
+	background-image:none;
+}
+.carousel-caption i {
+	color:orange;
+}
+	
+
+.contact{
+	position:relative;
+	top:60%;
+	left:0px;
+	right:0px;
+	
+}
+
+.contact h2{
+	padding:20px;
+	border-bottom:1px solid blue;
+}
+
+.contact button{
+	margin:15px;
+}
+
+.from-group{
+	padding:15px;
+}
+
+#img{
+	padding:5px 0px;
+}
+
+#myNavbar ul{
+	float:right;
+}
+
+
+.socilaMedia{
+	font-size:30px;
+	padding:10px;
+}
+
+.socilaMedia a{
+	padding: 0px 5px;
+}
+
+.fa-facebook ,.fa-instagram,.fa-linkedin,.fa-envelope{
+	padding:10px 13px 10px 13px;
+	border-radius:50px;
+	border:1px solid black;
+	color:black;
+}
+
+.socilaMedia .fa-facebook:hover{
+	color:white;
+	background-color:#4267b2;
+}
+
+.socilaMedia .fas:hover{
+	color:white;
+	background-color:rgb(52,175,217);
+}
+
+.socilaMedia .fa-instagram:hover{
+	color:white;
+	background: linear-gradient(to bottom right, #f14c47, #ce2e83);
+}
+
+.socilaMedia .fa-linkedin:hover{
+	color:white;
+	background-color:#007bb6;
+}
+
+
