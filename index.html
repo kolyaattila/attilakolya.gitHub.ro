@@ -13,10 +13,10 @@
 </head>
 
 
-<body>
+<body id="body">
+	
 
-
-	<nav class="navbar navbar-inverse "style="background-color:red" id="pozitieSticky">
+	<nav class="navbar navbar-inverse " id="pozitieSticky">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#myNavbar">
@@ -44,24 +44,30 @@
 		</div>
 	
 	
+	<div class="progress-container">
+		<div class="progress-bar" id="myBar"></div>
+	</div> 
+	
 	</nav>
-	<div class="container-fluid plasa">
-	</div>
+	
 	<div class="container-fluid video">
 		<video src="video/2.mp4" autoplay="true" loop="true"></video>
 	</div>
 	
 	<div class="container-fluid titlu">
-		<h1>RochetX</h1>
-		<h4>"Un corp acționează asupra altui corp cu o forță , cel de-al doilea corp acționează și 
-			el asupra primului cu o forță  de aceeași mărime și de aceeași direcție, dar de sens contrar"  - Newton</h4>
-	
+		<div>
+			<h1>RochetX</h1>
+			<h3>"Un corp acționează asupra altui corp cu o forță , cel de-al doilea corp acționează și 
+				el asupra primului cu o forță  de aceeași mărime și de aceeași direcție, dar de sens contrar"  - Newton</h3>
+		</div>
+		<div class="container-fluid plasa">
+		</div>
 	</div>
 	
 	
 	<div class="container descriere">
 		<h2 >Despre noi</h2>
-		<p class="text-justify">ceva textceva textceva textceva textceva textceva textceva textceva textceva textceva
+		<p class="text-justify" id="pAnime">ceva textceva textceva textceva textceva textceva textceva textceva textceva textceva
 		textceva textceva textceva textceva textceva textcevaceva textceva textceva textceva textceva textceva textceva textceva text textceva textceva textceva textceva textceva textceva textceva textceva textceva textceva
 		textceva textceva textceva textceva textceva textcevaceva textceva textceva textceva textceva textceva textceva textceva text textceva textceva textceva textceva textceva textceva textceva textceva textceva textceva
 		textceva textceva textceva textceva textceva textcevaceva textceva textceva textceva textceva textceva textceva textceva text text</p>
@@ -85,8 +91,8 @@
 						<img src="imagini/stephen.jpg" style="width:20%" class="img-circle">
 						<h3>Stephen Hawking</h3>
 						<i class="fas fa-quote-left"></i>
-						<p>Time travel used to be thought of as just science fiction, but Einstein's general theory 
-						of relativity allows for the possibility that we could
+						<p class="text-center">Time travel used to be thought of as just science fiction, but Einstein's general theory 
+						of relativity allows for the possibility <br>that we could
 						warp space-time so much that you could go off in a rocket and return before you set out.</p>
 						<i class="fas fa-quote-right"></i>
 					 </div>
@@ -97,7 +103,7 @@
 					<img src="imagini/elon.jpg" style="width:20%" class="img-circle">
 					<h3>Elon Musk</h3>
 					<i class="fas fa-quote-left"></i>
-					<p>My vision is for a fully reusable rocket transport system between Earth and Mars that is able to re-fuel on Mars -
+					<p class="text-center"> My vision is for a fully reusable rocket transport system between Earth and Mars that is able <br>to re-fuel on Mars -
 						this is very important - so you don't have to carry the return fuel when you go there.</p>
 					<i class="fas fa-quote-right"></i>
 				  </div>
@@ -108,7 +114,7 @@
 					<img src="imagini/elon.jpg" style="width:20%" class="img-circle">
 					<h3>Elon Musk</h3>
 					<i class="fas fa-quote-left"></i>
-					<p>My vision is for a fully reusable rocket transport system between Earth and Mars that is able to re-fuel on Mars -
+					<p class="text-center">My vision is for a fully reusable rocket transport system between Earth and Mars<br> that is able to re-fuel on Mars -
 						this is very important - so you don't have to carry the return fuel when you go there.</p>
 					<i class="fas fa-quote-right"></i>
 				  </div>
@@ -135,42 +141,59 @@
 		<h2 >Contact</h2>
 		<div class="row">
 		
-			<div class="col-sm-6">
-			<p><b>Telefon</b>: 0740-481-514</p>
-			<p><b>Email</b>: contact.racketx@gmail.com</p>
-			<div class="socilaMedia ">
-				<!-- elemente socilaMedia   -->
-				<a href="https://www.facebook.com/attila.kolya.54" title="facebook"><i class="fab fa-facebook"></i></a>
-				<a title="instagram" href="https://www.instagram.com/attilakolya/?hl=ro"><i class="fab fa-instagram"></i></a>
-				<a title="E-mail" href="mailto:attila.kolya@yahoo.com"><i class="fas fa-envelope"></i></a>
-				<a href="https://www.linkedin.com/in/kolya-attila-3958bb15a/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+			<div class="col-sm-3">
+				<h3>Aeva ceva</h3>
+				<div>
+					<p><b>Telefon</b>: 0740-481-514</p>
+					<p><b>Email</b>: contact.racketx@gmail.com</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<h3>Aboneaza-te</h3>
+				<div class="socilaMedia ">
+					<!-- elemente socilaMedia   -->
+					<a href="https://www.facebook.com/attila.kolya.54" title="facebook"><i class="fab fa-facebook"></i></a>
+					<a title="instagram" href="https://www.instagram.com/attilakolya/?hl=ro"><i class="fab fa-instagram"></i></a>
+					<a title="twitter" href="mailto:attila.kolya@yahoo.com"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/kolya-attila-3958bb15a/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+				</div>
 			</div>
 			
 			
-			</div>
-			<form class="col-sm-6 row">
-				<div class="from-group col-sm-4">
-					
-					<input class="form-control" placeholder="Nume" type="text" ></input>
+								
+			<form class="col-sm-6">
+				
+					<h3>Vrei sa ne scrii un mesaj?</h3>
+				<div class="row">	
+					<div class="from-group col-sm-4">
+						
+						<input class="form-control" placeholder="Nume" type="text" ></input>
+					</div>
+					<div class="from-group col-sm-4">
+						
+						<input class="form-control" placeholder="Email" type="text"></input>
+					</div>
+					<div class="from-group col-sm-4">
+						
+						<input class="form-control" placeholder="Telefon" type="text"></input>
+					</div>
+					<div class="from-group col-sm-12">
+						
+						<textarea class="form-control"  placeholder="Mesaj" ></textarea>
+					</div>
+					<button type="button" class="btn btn-primary btn-md">Trimite</button>
 				</div>
-				<div class="from-group col-sm-4">
-					
-					<input class="form-control" placeholder="Email" type="text"></input>
-				</div>
-				<div class="from-group col-sm-4">
-					
-					<input class="form-control" placeholder="Telefon" type="text"></input>
-				</div>
-				<div class="from-group col-sm-12">
-					
-					<textarea class="form-control"  placeholder="Mesaj" ></textarea>
-				</div>
-				<button type="button" class="btn btn-primary btn-md">Trimite</button>
 			</form>
 
 		</div>
 	</div>
 	
+	<div class="container-fluid footer">
+		<footer class="text-center">
+			<h6>All ... </h6>
+		</footer>
+	
+	</div>
 	
 	
 
@@ -178,7 +201,7 @@
 
 
 
-	<script src="https://kolyaattila.github.io/attilakolya.gitHub.ro/js/JavaScript_index.js"></script>
+	<script src="js/javaScript_index.js"></script>
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 

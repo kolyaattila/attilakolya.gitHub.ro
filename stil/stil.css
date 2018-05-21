@@ -3,10 +3,11 @@
     top: 0px;
     left: 0px;
     background: #2f4f4f;
-    z-index: 1;
+    z-index: -1;
     width: 100%;
     height: 100%;
     opacity: 0.8;
+    border-radius: 1%;
 }
 
 .video{
@@ -22,15 +23,87 @@
 	min-width: 100%;
     min-height: 100%;
 	position:absolute;
-	left:0px;
 	top:0px;
 	
 }
 
+@media (min-width:767px){
+	.video video{
+		left:0px;
+	}
+	.titlu h1{
+	font-size:45px;
+}
+}
+
+@media (min-width:580px) and (max-width:766px){
+	.video video{
+		left:-35%;
+	}
+	.titlu h3{
+	font-size:17px;
+}
+}
+@media (min-width:480px) and (max-width:579px){
+	.video video{
+		left:-65%;
+	}
+		.titlu h3{
+	font-size:17px;
+}
+}
+@media (min-width:380px) and (max-width:479px){
+	.video video{
+		left:-96%;
+	}
+		.titlu h3{
+	font-size:17px;
+}
+}
+@media (min-width:300px) and (max-width:379px){
+	.video video{
+		left:-140%;
+	}
+		.titlu h3{
+	font-size:14px;
+}
+	.titlu h1{
+	font-size:25px;
+}
+}
+@media (max-width:299px){
+	.video video{
+		left:-210%;
+	}
+		.titlu h3{
+	font-size:14px;
+}
+	.titlu h1{
+	font-size:20px;
+}
+}
+
+.progress-container{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:3px;
+	z-index:5;
+}
+
+.progress-bar{
+	height:3px;
+	width:0%;
+	background-color:orange;
+}
 
 body{
 	height: 1500px;
     margin: 0px;
+	opacity:0;
+	transition-property:opacity;
+	transition-duration: 2s;
 }
 .navbar{
 	z-index:4;
@@ -45,12 +118,14 @@ body{
 
 .titlu{
 	position: absolute;
-    top: 35%;
-	left:5%;
-	width:40%;
+    top: 23%;
+    left: 5%;
+    width: 42%;
     z-index: 3;
     color: white;
 }
+
+
 
 .descriere{
 	position:relative;
@@ -93,14 +168,14 @@ body{
 
 @media  (min-width:767px){
 	#paralax{
-		height:310%;
+		height:350%;
 	}
 }
 
 
-@media  (max-width:768px){
+@media  (max-width:768px)  {
 	#paralax{
-		height:400%;
+		height:500%;
 	}
 }
 
@@ -160,7 +235,7 @@ body{
 	padding: 0px 5px;
 }
 
-.fa-facebook ,.fa-instagram,.fa-linkedin,.fa-envelope{
+.fa-facebook ,.fa-instagram,.fa-linkedin,.fa-twitter{
 	padding:10px 13px 10px 13px;
 	border-radius:50px;
 	border:1px solid black;
@@ -172,7 +247,7 @@ body{
 	background-color:#4267b2;
 }
 
-.socilaMedia .fas:hover{
+.socilaMedia .fa-twitter:hover{
 	color:white;
 	background-color:rgb(52,175,217);
 }
@@ -187,4 +262,19 @@ body{
 	background-color:#007bb6;
 }
 
+.descriere p{
+	transition-property:opacity;
+	opacity:0;
+	
+}
 
+textarea {
+    resize: none;
+}
+
+.footer{
+	position:relative;
+	top:61%;
+	color:white;
+	background-color:#89CFF0;
+}
