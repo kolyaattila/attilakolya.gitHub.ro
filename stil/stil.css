@@ -101,7 +101,7 @@
 body{
 	height: 1500px;
     margin: 0px;
-	opacity:0;
+	/opacity:0;
 	transition-property:opacity;
 	transition-duration: 2s;
 }
