@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<head>
-<title>Form submission</title>
 
 
 <?php 
@@ -22,6 +19,13 @@ if(isset($_POST['submit'])){
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
+
+
+<!DOCTYPE html>
+<head>
+<title>Form submission</title>
+
+
 
 </head>
 <body>
