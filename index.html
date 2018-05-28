@@ -57,8 +57,8 @@
 	<div class="container-fluid titlu">
 		<div>
 			<h1>RochetX</h1>
-			<h3>"Un corp acționează asupra altui corp cu o forță , cel de-al doilea corp acționează și 
-				el asupra primului cu o forță  de aceeași mărime și de aceeași direcție, dar de sens contrar"  - Newton</h3>
+			<h3>Un corp acționează asupra altui corp cu o forță , cel de-al doilea corp acționează și 
+				el asupra primului cu o forță  de aceeași mărime și de aceeași direcție, dar de sens contrar - Isac Newton</h3>
 		</div>
 		<div class="container-fluid plasa">
 		</div>
@@ -91,10 +91,11 @@
 						<img src="imagini/stephen.jpg" style="width:20%" class="img-circle">
 						<h3>Stephen Hawking</h3>
 						<i class="fas fa-quote-left"></i>
-						<p class="text-center">Time travel used to be thought of as just science fiction, but Einstein's general theory 
-						of relativity allows for the possibility <br>that we could
-						warp space-time so much that you could go off in a rocket and return before you set out.</p>
-						<i class="fas fa-quote-right"></i>
+						<p class="text-justify">Călătoria în timp a fost considerată ca fiind doar science fiction,
+						dar teoria relativității generale a lui Einstein permite posibilitatea ca noi să distrugem
+						spațiul și timpul atât de mult încât să mergem într-o rachetă și să ne întoarcem înainte de
+						a vă stabili.</p>
+					
 					 </div>
 				</div>
 
@@ -103,20 +104,20 @@
 					<img src="imagini/elon.jpg" style="width:20%" class="img-circle">
 					<h3>Elon Musk</h3>
 					<i class="fas fa-quote-left"></i>
-					<p class="text-center"> My vision is for a fully reusable rocket transport system between Earth and Mars that is able <br>to re-fuel on Mars -
-						this is very important - so you don't have to carry the return fuel when you go there.</p>
-					<i class="fas fa-quote-right"></i>
+					<p class="text-justify"> Viziunea mea este un sistem de transport de rachete complet reutilizabil între Pământ și Marte, care este capabil să reîncarce pe Marte ,
+						acest lucru este foarte important ,deci nu trebuie să transportați combustibilul de întoarcere atunci când mergeți acolo</p>
+				
 				  </div>
 				</div>
 				
 				<div class="item">
 				  <div class="carousel-caption">
-					<img src="imagini/elon.jpg" style="width:20%" class="img-circle">
-					<h3>Elon Musk</h3>
+					<img src="imagini/glenn.jpg" style="width:20%" class="img-circle">
+					<h3>John Glenn</h3>
 					<i class="fas fa-quote-left"></i>
-					<p class="text-center">My vision is for a fully reusable rocket transport system between Earth and Mars<br> that is able to re-fuel on Mars -
-						this is very important - so you don't have to carry the return fuel when you go there.</p>
-					<i class="fas fa-quote-right"></i>
+					<p class="text-justify">Cel mai important lucru pe care îl putem face este să inspire mintea tinerilor și să promoveze tipul de educație științifică, matematică
+					și tehnologie care îi va ajuta pe tineri să ne ducă în faza următoare a călătoriei spațiale.</p>
+					
 				  </div>
 				</div>
 
@@ -141,47 +142,40 @@
 		<h2 >Contact</h2>
 		<div class="row">
 		
-			<div class="col-sm-3">
-				<h3>Aeva ceva</h3>
+			<div class="col-sm-4">
+				<h3>Contacteaza-ne</h3>
 				<div>
 					<p><b>Telefon</b>: 0740-481-514</p>
 					<p><b>Email</b>: contact.racketx@gmail.com</p>
 				</div>
 			</div>
-			<div class="col-sm-3">
-				<h3>Aboneaza-te</h3>
-				<div class="socilaMedia ">
-					<!-- elemente socilaMedia   -->
-					<a href="https://www.facebook.com/attila.kolya.54" title="facebook"><i class="fab fa-facebook"></i></a>
-					<a title="instagram" href="https://www.instagram.com/attilakolya/?hl=ro"><i class="fab fa-instagram"></i></a>
-					<a title="twitter" href="mailto:attila.kolya@yahoo.com"><i class="fab fa-twitter"></i></a>
-					<a href="https://www.linkedin.com/in/kolya-attila-3958bb15a/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
-				</div>
-			</div>
+		
 			
 			
 								
-			<form class="col-sm-6">
+			<form class="col-sm-10" id="formular">
 				
 					<h3>Vrei sa ne scrii un mesaj?</h3>
 				<div class="row">	
-					<div class="from-group col-sm-4">
-						
-						<input class="form-control" placeholder="Nume" type="text" ></input>
+					<div class="from-group col-sm-4" id="span1">
+						<input id="nume" class="form-control" placeholder="Nume" type="text" ></input>
+						 <i class=""></i>
 					</div>
-					<div class="from-group col-sm-4">
+					<div class="from-group col-sm-4" id="span2">
 						
-						<input class="form-control" placeholder="Email" type="text"></input>
+						<input id="email" class="form-control" placeholder="Email" type="text"></input>
+						 <i class=""></i>
 					</div>
-					<div class="from-group col-sm-4">
+					<div class="from-group col-sm-4" id="span3">
 						
-						<input class="form-control" placeholder="Telefon" type="text"></input>
+						<input id="telefon" class="form-control" placeholder="Telefon" type="text"></input>
+						 <i class=""></i>
 					</div>
 					<div class="from-group col-sm-12">
 						
-						<textarea class="form-control"  placeholder="Mesaj" ></textarea>
+						<textarea id="comentariu" class="form-control"  placeholder="Mesaj" ></textarea>
 					</div>
-					<button type="button" class="btn btn-primary btn-md">Trimite</button>
+					<button id="submit" type="button" class="btn btn-primary btn-md">Trimite</button>
 				</div>
 			</form>
 
@@ -189,8 +183,16 @@
 	</div>
 	
 	<div class="container-fluid footer">
+			<div class="socilaMedia text-center">
+					<!-- elemente socilaMedia   -->
+					<a href="https://www.facebook.com/attila.kolya.54" title="facebook"><i class="fab fa-facebook"></i></a>
+					<a title="instagram" href="https://www.instagram.com/attilakolya/?hl=ro"><i class="fab fa-instagram"></i></a>
+					<a title="twitter" href="mailto:attila.kolya@yahoo.com"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/kolya-attila-3958bb15a/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+			</div>
+		
 		<footer class="text-center">
-			<h6>All ... </h6>
+			<h6>	&copy; Kolya Attila 2018 </h6>
 		</footer>
 	
 	</div>
@@ -199,8 +201,9 @@
 
 
 
+	
 
-	<script src="https://kolyaattila.github.io/attilakolya.gitHub.ro/js/JavaScript_index.js"></script>
+	<!--script src="https://kolyaattila.github.io/attilakolya.gitHub.ro/js/JavaScript_index.js"></script-->
 	<script src="js/javaScript_index.js"></script>
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

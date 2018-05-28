@@ -28,13 +28,16 @@
 }
 
 @media (min-width:767px){
+
 	.video video{
 		left:0px;
 	}
 	.titlu h1{
 	font-size:45px;
+	}
+	
 }
-}
+
 
 @media (min-width:580px) and (max-width:766px){
 	.video video{
@@ -99,9 +102,9 @@
 }
 
 body{
-	height: 1500px;
+	
     margin: 0px;
-	/opacity:0;
+	opacity:0;
 	transition-property:opacity;
 	transition-duration: 2s;
 }
@@ -129,7 +132,6 @@ body{
 
 .descriere{
 	position:relative;
-	top:47%;
 	left:0px;
 	right:0px;
 }
@@ -145,11 +147,10 @@ body{
 .paralax{
 	color:white;
 	position:relative;
-	top:55%;
 	left:0px;
 	right:0px;
 	overflow:hidden;
-	height:400px;
+	height:450px;
 }
 
 #paralax{
@@ -166,16 +167,69 @@ body{
 	z-index:-1;
 }
 
-@media  (min-width:767px){
+
+@media  (min-width:767px) and (min-height:900px){
 	#paralax{
-		height:350%;
+		height:400%;
+	}
+	.paralax{
+		top:49%;
+	}
+	.contact{
+		top:52%;
+	}
+	.footer{
+		top:55%;
+	}
+	.descriere{
+		top:43%;
+	}
+	body{
+		height:2600px;
 	}
 }
 
 
-@media  (max-width:768px)  {
+@media  (min-width:767px) and (max-height:900px){
+	#paralax{
+		height:400%;
+	}
+	.paralax{
+		top:42%;
+	}
+	.contact{
+		top:43%;
+	}
+	.footer{
+		top:48%;
+	}
+	.descriere{
+		top:38%;
+	}
+	body{
+		height:2100px;
+	}
+}
+
+
+@media  (max-width:767px) and (max-height:900px) {
 	#paralax{
 		height:500%;
+	}
+	body{
+		height:2500px;
+	}
+	.paralax{
+		top:34%;
+	}
+	.contact{
+		top:37%;
+	}
+	.footer{
+		top:39%;	
+	}
+	.descriere{
+		top:30%;
 	}
 }
 
@@ -183,7 +237,7 @@ body{
 		height:250px
 }
 .carousel-inner{
-		height:400px;
+		height:450px;
 }
 .carousel-caption{
 	top:0px;
@@ -198,7 +252,7 @@ body{
 
 .contact{
 	position:relative;
-	top:60%;
+	
 	left:0px;
 	right:0px;
 	
@@ -232,7 +286,7 @@ body{
 }
 
 .socilaMedia a{
-	padding: 0px 5px;
+	padding: 0px 3px;
 }
 
 .fa-facebook ,.fa-instagram,.fa-linkedin,.fa-twitter{
@@ -261,7 +315,16 @@ body{
 	color:white;
 	background-color:#007bb6;
 }
+  
+  .footer{
+	position:relative;
+	
+	color:white;
+	background-color:#206276;
+}
 
+  
+  
 .descriere p{
 	transition-property:opacity;
 	opacity:0;
@@ -272,9 +335,22 @@ textarea {
     resize: none;
 }
 
-.footer{
-	position:relative;
-	top:61%;
-	color:white;
-	background-color:#89CFF0;
+
+
+
+.fa-times, .fa-check{
+	position: absolute;
+    right: 21px;
+    top: 40%;
+    
+    opacity: 0.8;
+}
+
+
+.fa-times{
+
+	color: #c30b0b;
+}
+.fa-check{
+	color:green;
 }

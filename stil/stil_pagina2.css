@@ -1,12 +1,21 @@
 body{
 	
-	background-image: url("../imagini/photo5.jpg");
+	
+    /height:0vh;
+    margin: 0px;
+}
+
+
+.ceva{ 
+
+   background-image: url(../imagini/photo3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    margin: 0px;
-}
+	
+	}
+	
+	
 .navbar{
 	z-index:4;
 }
@@ -15,30 +24,89 @@ body{
 	position:sticky;
 	top:0%;
 	border-color: #080808;
-	background:transparent;
+	
 }
 
 #img{
 	padding:5px 0px;
 }
 
+.navbar {
+	margin:0px;
+}
+
 #myNavbar ul{
 	float:right;
 }
-.video{
+/*
+@media (min-width:767px){
+
+	.video{
+		position: absolute;
+		bottom: 3%;
+		width: 30%;
+		right: 8%;
+		z-index:2;
+
+	}
+	video{
+		width:90%;
+	}
+}
+
+@media (min-width:400px) and (max-width:766px)  {
+	
+	.video{
+		position:absolute;
+		width:80%;
+		left:15%;
+		top:30%;
+	}
+	video{
+		width:90%;
+	}
+}
+
+@media (max-width:399px){
+	video{
+		width:100%;
+	}
+	
+	.video{
+		position:absolute;
+		width:90%;
+		left:5%;
+		top:30%;
+	}
+}
+*/
+.backGround{
 	position: absolute;
-    bottom: 10%;
-    width: 30%;
-    right: 5%;
-	-webkit-transition: width 1.5s;
-	-moz-transition: width 1.5s;
-	-o-transition:width 1.5s;
-}
-video{
-	width:90%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: 0.7;
+    z-index: -1;
 }
 
+.text-justify{
+	font-size:21px;
+	color:white;
+}
 
+.text{
+	
+	margin-bottom:10%;
+}
+
+@media (min-width:767px){
+.video{
+	position: sticky;
+    top: 200px;
+}
+}
 
 .progress-container{
 	position:absolute;
@@ -57,4 +125,61 @@ video{
 
 .titlu{
 	color:white;
+}
+
+
+
+.socilaMedia{
+	font-size:30px;
+	padding:10px;
+}
+
+.socilaMedia a{
+	padding: 0px 3px;
+}
+
+.fa-facebook ,.fa-instagram,.fa-linkedin,.fa-twitter{
+	padding:10px 13px 10px 13px;
+	border-radius:50px;
+	border:1px solid black;
+	color:black;
+}
+
+.socilaMedia .fa-facebook:hover{
+	color:white;
+	background-color:#4267b2;
+}
+
+.socilaMedia .fa-twitter:hover{
+	color:white;
+	background-color:rgb(52,175,217);
+}
+
+.socilaMedia .fa-instagram:hover{
+	color:white;
+	background: linear-gradient(to bottom right, #f14c47, #ce2e83);
+}
+
+.socilaMedia .fa-linkedin:hover{
+	color:white;
+	background-color:#007bb6;
+}
+  
+  .footer{
+	position:relative;
+	top:61%;
+	color:white;
+	background-color:#206276;
+}
+
+video{
+	width:100%;
+}
+
+.row{
+	margin:0px;
+}
+
+.titlu{
+	margin-bottom:10%;
 }

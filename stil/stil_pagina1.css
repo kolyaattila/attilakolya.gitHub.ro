@@ -1,6 +1,7 @@
 body{
 	padding:0px;
     margin: 0px;
+	    background: #E9E9E9;
 }
 
 .navbar{
@@ -52,10 +53,11 @@ body{
 	content:'';
 	position:absolute;
 	left:50%;
-	top:6%;
+	top:30px;
 	width:2px;
 	height:100%;
 	background-color:#74D0F1;
+	box-shadow: 10px 10px 7px #aaaaaa;
 }
 
 .timeline ul{
@@ -85,6 +87,7 @@ body{
 }
 .content{
 	padding-bottom:20px;
+	border-radius: 5px;
 }
 
 .timeline ul li:nth-child(odd):before{
@@ -94,7 +97,7 @@ body{
 	height:10px;
 	background-color:#2C75FF;
 	border-radius:50%;
-	box-shadow:0 0 0 3px rgb(33,33,99,0.2)
+	box-shadow: 10px 10px 7px #aaaaaa;
 }
 
 .timeline ul li:nth-child(even):before{
@@ -104,10 +107,14 @@ body{
 	height:10px;
 	background-color:#2C75FF;
 	border-radius:50%;
-	box-shadow:0 0 0 3px rgb(33,33,99,0.2)
+	box-shadow: 10px 10px 7px #aaaaaa;
 }
-
-.timeline ul li  h3{
+.content{
+	    background: white;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #aaaaaa;
+}
+.timeline ul li  h2{
 	margin:0px;
 	padding:0px;
 	font-weight:600;
@@ -133,7 +140,9 @@ body{
     background-color: #74D0F1;
     color: white;
     border-radius: 18px;
-    box-shadow: 0 0 0 3px #2C75FF;
+    box-shadow: 10px 10px 20px #aaaaaa;
+	-webkit-transition: all 1.5s ease;
+    transition: all 1.5s ease;
 }
 
 .timeline ul li:nth-child(even) .time{
@@ -143,7 +152,9 @@ body{
 	background-color:#74D0F1;
 	color:white;
 	border-radius:18px;
-	box-shadow:0 0 0 3px #2C75FF;
+	box-shadow: 10px 10px 20px #aaaaaa;
+	-webkit-transition: all 1.5s ease;
+    transition: all 1.5s ease;
 }
 
 @media (max-width:1000px){
@@ -154,14 +165,23 @@ body{
 }
 
 @media (min-width:767px){
+	.timeline p{
+		font-size:21px;
+	}
+	
 	.timeline ul li:nth-child(even) .time{
 		top:12px;
-		left:-135px;
+		left:-315px;
+	}
+	
+	.timeline ul li:nth-child(even) .time:hover{
+		top:12px;
+		left:-215px;
 	}
 	
 	.timeline ul li:nth-child(odd) .time{
 		top:12px;
-		right:-135px;
+		right:-315px;
 		
 	}
 	
@@ -180,13 +200,18 @@ body{
 }
 
 @media (max-width:767px){
+	
+	.timeline h2{
+		font-size:24px;
+	}
+	
 	.timeline{
 		width:100%;
 	}
 	
 	.timeline:before{
 		left:20px;
-		top:2%;
+		top:0%;
 	}
 	.timeline li:nth-child(even),
 	.timeline li:nth-child(odd){
@@ -311,8 +336,53 @@ p{
 
 
 
+.socilaMedia{
+	font-size:30px;
+	padding:10px;
+}
 
+.socilaMedia a{
+	padding: 0px 3px;
+}
 
+.fa-facebook ,.fa-instagram,.fa-linkedin,.fa-twitter{
+	padding:10px 13px 10px 13px;
+	border-radius:50px;
+	border:1px solid black;
+	color:black;
+}
+
+.socilaMedia .fa-facebook:hover{
+	color:white;
+	background-color:#4267b2;
+}
+
+.socilaMedia .fa-twitter:hover{
+	color:white;
+	background-color:rgb(52,175,217);
+}
+
+.socilaMedia .fa-instagram:hover{
+	color:white;
+	background: linear-gradient(to bottom right, #f14c47, #ce2e83);
+}
+
+.socilaMedia .fa-linkedin:hover{
+	color:white;
+	background-color:#007bb6;
+}
+  
+  .footer{
+	position:relative;
+	top:61%;
+	color:white;
+	background-color:#206276;
+}
+
+.time h4{
+	width:160px;
+	text-align:center;
+}
 
 
 
