@@ -32,7 +32,7 @@ body{
 @media (min-width:768px){
 	.row{
 	transition: all 0.5s ease-in-out;
-	background-image: url(../imagini/photo10.jpg);
+	background-image: url(../imagini/photo8.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -40,6 +40,7 @@ body{
 	position: relative;
     top: 100vh;
 	z-index:3;
+	
 	}
 	.img{
 		position: relative;
@@ -53,6 +54,8 @@ body{
 		float: left;
 		transition: all 0.5s ease-in-out;
 		transition-delay:0.5s;
+		padding-bottom:30px;
+		overflow:hidden;
 	}
 	
 	.titlu{
@@ -85,7 +88,7 @@ body{
 	#continut1{
 		top:500px;
 		left:0%;
-		opacity:0.1;
+		opacity:0;
 	}
 	
 
@@ -93,43 +96,43 @@ body{
 	#continut2{
 		top:310px;
 		left:15%;
-		opacity:0.1;
+		opacity:0;
 		
 	}
 	
 	#continut3{
 		top:300px;
 		left:10%;
-		opacity:0.1;
+		opacity:0;
 	}
 	
 	#continut4{
 		top:136px;
 		left:0%;
-		opacity:0.1;
+		opacity:0;
 	}
 	
 	#continut5{
 		top:300px;
 		left:13%;
-		opacity:0.1;
+		opacity:0;
 	}
 	
 	#continut6{
 		top:125px;
 		left:0%;
-		opacity:0.1;
+		opacity:0;
 	}
 	
 	#continut7{
 		top:300px;
 		left:13%;
-		opacity:0.1;
+		opacity:0;
 	}
 	
 	#continut8{
 		top:236px;
-		left:-41%;
+		/left:-41%;
 		opacity:0.1;
 		margin-bottom:450px;
 	}
@@ -137,7 +140,24 @@ body{
 
 }
 
+@media (min-width:768px)
+{
+	.scrol{
+	position: absolute;
+    width: 5%;
+    bottom: 0px;
+    right: 50%;
+}
+ .scrol img{
+	 width:100%;
+ }
+}
 
+@media(max-width:767px){
+	.scrol{
+		display:none;
+	}
+}
 
 
 
@@ -217,6 +237,49 @@ body{
 	
 }
 
+#continut4 a{
+	
+    position: absolute;
+    bottom: -16px;
+    font-size: 50px;
+    right:45%;
+    transition: all 1s ease-in-out;
+}
+
+
+#continut5 a{
+	
+    position: absolute;
+    bottom: -20px;
+    font-size: 50px;
+    right:45%;
+    transition: all 1s ease-in-out;
+}
+
+@media (max-width:768px){
+	#continut5{
+		padding-bottom:20px;
+	}
+	#continut4{
+		padding-bottom:20px;
+	}
+}
+
+@media (min-width:768px){
+	#continut5 a{
+		color:white;
+	}
+	#continut4 a{
+		color:white;
+	}
+}
+
+  .test + .tooltip > .tooltip-inner {
+      padding: 15px;
+      font-size: 20px;
+  }
+
+
 .socilaMedia{
 	font-size:30px;
 	padding:10px;
@@ -251,6 +314,10 @@ body{
 .socilaMedia .fa-linkedin:hover{
 	color:white;
 	background-color:#007bb6;
+}
+
+.fas{
+	color:orange;
 }
   
   .footer{

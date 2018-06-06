@@ -165,6 +165,12 @@ body{
 }
 
 @media (min-width:767px){
+	
+	.titlu h1{
+		font-size: 50px;
+		color: #03224C;
+	}
+	
 	.timeline p{
 		font-size:21px;
 	}

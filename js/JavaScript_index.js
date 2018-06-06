@@ -14,6 +14,11 @@ li.style.color="white";
 
 //validare formular
 var tab_erori=[false,false,false,false];
+var tab_2erori=["Numele este incoret. Trebuie sa contina minim 3 caractere si fara simboluri.",
+	"Numarul de telefon este incorect. Trebuie sa fie format doar din 10 cifre.",
+	"Email-ul este incorect. trebuie sa fie de forma asta exemplu@yahoo.com",
+	"Mesajul este incorect. Trebuie sa contina minim 10 caractere si maxim 200."
+];
 var referinta_email=document.getElementById("email");
 var referinta_com=document.getElementById("comentariu");
 var referinta_telefon=document.getElementById("telefon");
@@ -26,6 +31,18 @@ var span3 = document.getElementById("span3");
 r_submit.onclick=function(){
 	if(verifica()){
 		console.log("sa trimis");
+		$("#raspuns").html("Mesaj trimis. Va ultumim!");
+		referinta_nume.value="";
+		referinta_email.value="";
+		referinta_email.style.backgroundColor="white";
+		referinta_com.value="";
+		referinta_telefon.value="";
+		span1.childNodes[1].style.border=" 1px solid #ccc";
+		span2.childNodes[1].style.border=" 1px solid #ccc";
+		span3.childNodes[1].style.border=" 1px solid #ccc";
+		span1.childNodes[3].className="";
+		span2.childNodes[3].className="";
+		span3.childNodes[3].className="";
 	}
 }
  
@@ -34,29 +51,15 @@ r_submit.onclick=function(){
  function verifica(){
 	 for(var i=0;i<4;i++){
 		 if(tab_erori[i]==false){
-			switch(i){
-				case 0:{
-					console.log("a0");
-					
-				}
-				case 1:{
-					console.log("a1");
-					
-				}
-				case 2:{
-					console.log("a2");
-					
-				}
-				case 3:{
-					console.log("a3");
-					
-				}
+			
+				$("#raspuns").html(tab_2erori[i]);
+				return false;
 			}
-			return false;
 		}
+		return true;
 	 }
-	 return true;
- }
+	 
+ 
  
 
 //verificare nume
@@ -95,7 +98,7 @@ referinta_telefon.addEventListener("blur",function(){
 
 //verifica email
 referinta_email.addEventListener("blur",function(){
-	if(referinta_email.value.indexOf("@")<3 || referinta_email.value.indexOf(".")<8){
+	if(referinta_email.value.indexOf("@")<3 ){
 		//referinta_email.style.backgroundColor="#FFA500";
 		tab_erori[2]=false;
 		span2.childNodes[1].style.border=" 1px solid #c30b0b";
@@ -114,11 +117,11 @@ referinta_email.addEventListener("blur",function(){
 //verifica comentariu
 referinta_com.addEventListener("blur",function(){
 	if(referinta_com.value.length<10 || referinta_com.value.length>200){
-		referinta_com.style.backgroundColor="#FFA500";
+		//referinta_com.style.backgroundColor="#FFA500";
 		tab_erori[3]=false;
 	}
 	else{
-		referinta_com.style.backgroundColor="#FFFFFF";
+		//referinta_com.style.backgroundColor="#FFFFFF";
 		tab_erori[3]=true;
 	}
 })

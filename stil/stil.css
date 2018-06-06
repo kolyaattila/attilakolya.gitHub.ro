@@ -35,7 +35,14 @@
 	.titlu h1{
 	font-size:45px;
 	}
+	.descriere p{
+		font-size:19px;
+	}
 	
+	.carousel-caption p{
+		font-size:20px;
+		
+	}
 }
 
 
